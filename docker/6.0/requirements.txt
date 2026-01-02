@@ -1,0 +1,5 @@
+Django==6.0
+gunicorn==23.0.0
+mysqlclient==2.2.7
+redis==7.1.0
+hiredis==3.3.0

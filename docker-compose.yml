@@ -4,8 +4,8 @@ services:
         depends_on:
             database:
                 condition: service_healthy
-        build: ./docker/5.2
-        #image: 'damalis/django:5.2'
+        build: ./docker/6.0
+        #image: 'damalis/django:6.0'
         container_name: django
         networks:
             - backend
