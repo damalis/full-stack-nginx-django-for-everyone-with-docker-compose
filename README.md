@@ -328,7 +328,7 @@ You might need to edit ALLOWED_HOSTS inside settings.py and add your Docker host
 
 ```ALLOWED_HOSTS = ['*']```
 
-This value is not safe for production usage. Refer to the [Django documentation](https://docs.djangoproject.com/en/5.2/ref/settings/#allowed-hosts) for more information.
+This value is not safe for production usage. Refer to the [Django documentation](https://docs.djangoproject.com/en/6.0/ref/settings/#allowed-hosts) for more information.
 
 ```TIME_ZONE = os.environ.get('TZ')```
 
@@ -361,9 +361,9 @@ DATABASES = {
 }
 ```
 
-[https://docs.djangoproject.com/en/5.2/ref/databases/#mariadb-notes](https://docs.djangoproject.com/en/5.2/ref/databases/#mariadb-notes)
+[https://docs.djangoproject.com/en/6.0/ref/databases/#mariadb-notes](https://docs.djangoproject.com/en/6.0/ref/databases/#mariadb-notes)
 
-[https://docs.djangoproject.com/en/5.2/ref/databases/#mysql-notes](https://docs.djangoproject.com/en/5.2/ref/databases/#mysql-notes)
+[https://docs.djangoproject.com/en/6.0/ref/databases/#mysql-notes](https://docs.djangoproject.com/en/6.0/ref/databases/#mysql-notes)
 
 [https://mariadb.com/kb/en/configuring-mariadb-with-option-files/](https://mariadb.com/kb/en/configuring-mariadb-with-option-files/)
 
@@ -382,7 +382,7 @@ CACHES = {
 }
 ```
 
-[https://docs.djangoproject.com/en/5.2/topics/cache/#redis](https://docs.djangoproject.com/en/5.2/topics/cache/#redis)
+[https://docs.djangoproject.com/en/6.0/topics/cache/#redis](https://docs.djangoproject.com/en/6.0/topics/cache/#redis)
 
 #### phpMyAdmin
 
