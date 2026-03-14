@@ -301,7 +301,7 @@ You should see the "The install worked successfully! Congratulations!" page in y
 https://DOMAIN_NAME
 ```
 
-must add import os at the top of your settings.py file:
+If not exists, must add import os at the top of your `./django/webapp/settings.py` file:
 
 ```
 # settings.py
